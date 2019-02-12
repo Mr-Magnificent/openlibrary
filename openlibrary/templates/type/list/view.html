@@ -131,7 +131,6 @@ window.q.push(function(){
                 var _this = this;
 
                 \$.post(list_key + "/delete.json", function() {
-                    \$(this).dialog("close");
                     window.location.reload();
                 });
             },
